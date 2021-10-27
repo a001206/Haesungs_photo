@@ -1,0 +1,41 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+a{
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+h1{
+    text-align: center;
+    border-bottom: 2px solid gainsboro;
+    margin: 60px;
+    font-family: fantasy;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 20px;
+}
+#li{
+    font-family: 'Jeju Hallasan', cursive;
+}
+#photoli{
+    display: grid;
+    height: 80vh;
+    grid-gap: 3px;
+    grid-template-rows:1fr 1fr 1fr;
+    font-family: fantasy;
+}
+.scenery{
+    border: 1px solid #CAF7E3;
+    background-color: #CAF7E3;
+}
+.person{
+    border: 1px solid #EDFFEC;
+    background-color: #EDFFEC;
+}
+.snap{
+    border: 1px solid #F6DFEB;
+    background-color: #F6DFEB;
+}
