@@ -1,11 +1,12 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css); /*한라*/
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css); /*한나*/
 body{
     background-color: #EDFFEC;
+    font-family: 'Hanna', sans-serif;
 }
 a{
     text-decoration: none;
     color: black;
-    font-family: fantasy;
 }
 h1{
     text-align: center;
