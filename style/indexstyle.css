@@ -23,7 +23,7 @@ ul{
 #li{
     font-family: 'Jeju Hallasan', cursive;
 }
-#photoli{
+.photoli{
     display: grid;
     height: 80vh;
     grid-gap: 3px;

@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css); /*한라*/
 @import url(//fonts.googleapis.com/earlyaccess/hanna.css); /*한나*/
 body{
-    font-family: 'Hanna', sans-serif;
+    background-color: #CAF7E3;
 }
 a{
     text-decoration: none;
@@ -9,21 +9,32 @@ a{
 }
 h1{
     text-align: center;
-    border-bottom: 2px solid #F7D0CA;
+    border-bottom: 2px solid #A2D2C9;
     margin: 60px;
     margin-bottom: 0;
     font-family: fantasy;
 }
+.page{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr 9fr;
+}
 ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.list{
     list-style: none;
     margin: 0;
     padding-top: 50px;
+    padding-right: 35px;
     font-family: 'Jeju Hallasan', cursive;
     font-size: 20px;
     width: 120px;
-    border-right: 2px solid #F7D0CA;
+    border-right: 2px solid #A2D2C9;
+    
 }
-#photo{
+.photo{
     text-align: center;
 }
 #li{
@@ -47,4 +58,12 @@ ul{
 .snap{
     border: 1px solid #F6DFEB;
     background-color: #F6DFEB;
+}
+@media(max-width : 620px){
+    ul{
+        border-right: none;
+    }
+    #photo{
+        padding-top: 60px;
+    }
 }

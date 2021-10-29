@@ -10,19 +10,30 @@ a{
 }
 h1{
     text-align: center;
-    border-bottom: 2px solid #FFEDF7;
+    border-bottom: 2px solid #BED9CC;
     margin: 60px;
     margin-bottom: 0;
     font-family: fantasy;
 }
+.page{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 7fr;
+}
 ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.list{
     list-style: none;
     margin: 0;
     padding-top: 50px;
+    padding-right: 35px;
     font-family: 'Jeju Hallasan', cursive;
     font-size: 20px;
     width: 120px;
-    border-right: 2px solid #FFEDF7;
+    border-right: 2px solid #BED9CC;
+    
 }
 #photo{
     text-align: center;
@@ -48,4 +59,12 @@ ul{
 .snap{
     border: 1px solid #F6DFEB;
     background-color: #F6DFEB;
+}
+@media(max-width : 620px){
+    ul{
+        border-right: none;
+    }
+    #photo{
+        padding-top: 60px;
+    }
 }
