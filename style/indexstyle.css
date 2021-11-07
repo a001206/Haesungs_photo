@@ -42,3 +42,11 @@ ul{
     border: 1px solid #F6DFEB;
     background-color: #F6DFEB;
 }
+@media(min-width:320px)and(max-width:768px){
+    h1{
+    font-size: 25px;
+    }
+    .photoli{
+        font-size: 15px;
+    }
+}
